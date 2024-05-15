@@ -2,7 +2,7 @@ package Systems;
 
 import personClasses.Customer;
 
-class Table implements Comparable <Table>{
+public class Table implements Comparable <Table>{
 	private int NumberOfSeats;
 	private String TableOwner;
 	private int TableNumber ;
@@ -19,12 +19,12 @@ class Table implements Comparable <Table>{
 		this.TableNumber = TableNumber;  
 	}
 	
-	protected void setStatus(boolean status)
+	public void setStatus(boolean status)
 	{
 		this.reserved = status;
 	}
 	
-	protected boolean getStatus()
+	public boolean getStatus()
 	{
 		return reserved;
 	}

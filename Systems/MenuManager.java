@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public interface MenuManager {
     ArrayList<Item> list= new ArrayList<>();
     default void addItem(String name, String description, String category, String recipe,int id, int price){
-        Item menuItem = new Item( name,  description,  category,  recipe, id,  price);
+        Item menuItem = new Item( name,  description,  category,  recipe,   price);
         list.add(menuItem);
     }
     default void editItem(Item menuItem, String recipe, ArrayList<Ingredients> ingredients){
