@@ -1,6 +1,6 @@
 package Systems;
 
-import personClasses.Customer;
+import PersonClasses.Customer;
 
 public class Table implements Comparable <Table>{
 	private int NumberOfSeats;

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 import java.util.Collections;
 
-import personClasses.Customer;
+import PersonClasses.Customer;
 
 public interface TableManager {
 

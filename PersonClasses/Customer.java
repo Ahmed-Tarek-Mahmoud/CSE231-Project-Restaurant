@@ -1,4 +1,4 @@
-package personClasses;
+package PersonClasses;
 
 import OrderClasses.*;
 import paymentClasses.*;

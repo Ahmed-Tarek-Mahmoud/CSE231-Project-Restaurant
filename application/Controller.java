@@ -33,8 +33,8 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import paymentClasses.Payment;
 import paymentClasses.Receipt;
-import personClasses.Customer;
-import personClasses.Manager;
+import PersonClasses.Customer;
+import PersonClasses.Manager;
 
 public class Controller {
 	

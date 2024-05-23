@@ -1,4 +1,4 @@
-package personClasses;
+package PersonClasses;
 
 public class Employee extends Person{
 

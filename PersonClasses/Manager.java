@@ -1,4 +1,4 @@
-package personClasses;
+package PersonClasses;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

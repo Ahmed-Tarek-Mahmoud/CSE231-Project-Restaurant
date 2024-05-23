@@ -13,7 +13,7 @@ package Systems;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-import personClasses.Customer;
+import PersonClasses.Customer;
 
 public interface ReservationManager {
     ArrayList<Reservation> Rlist= new ArrayList<>();
